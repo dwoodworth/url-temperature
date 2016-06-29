@@ -1,0 +1,61 @@
+/* General overrides above the base Bootstrap theme */
+#weather-data {
+	background-color: rgba(255, 255, 255, 0.85)
+}
+#degree-symbol {
+	margin-right: -1em;
+}
+#weather {
+	font-size: 1.2em;
+}
+#cache-time {
+	font-size: .7em;
+	text-align: center;
+	line-height: 1em;
+	margin-top: 2em;
+}
+
+/* Backgrounds for different weather conditions */
+#weather-container {
+	background-size: cover;
+}
+.clear, .sunny {
+	background-image: url('/images/clear.jpg');
+	background-position: center center;
+}
+.partlycloudy, .mostlysunny {
+	background-image: url('/images/partlycloudy.jpg');
+	background-position: center center;
+}
+.mostlycloudy, .partlysunny {
+	background-image: url('/images/mostlycloudy.jpg');
+	background-position: center center;
+}
+.cloudy, .overcast {
+	background-image: url('/images/overcast.jpg');
+	background-position: center center;
+}
+.rain {
+	background-image: url('/images/rain.jpg');
+	background-position: center center;
+}
+.tstorms {
+	background-image: url('/images/thunderstorm.jpg');
+	background-position: center center;
+}
+.snow, .flurries {
+	background-image: url('/images/snow.jpg');
+	background-position: center center;
+}
+.sleet {
+	background-image: url('/images/sleet.jpg');
+	background-position: center center;
+}
+.fog {
+	background-image: url('/images/fog.jpg');
+	background-position: center center;
+}
+.hazy {
+	background-image: url('/images/hazy.jpg');
+	background-position: center center;
+}
