@@ -1,7 +1,7 @@
-# url_temperature
+# url-temperature
 Demo Project for URL Digital
 
-The application url_temperature should run on any standard LAMP or MAMP stack that satisfies the requirements for the Laravel framework.
+The application *url-temperature* should run on any standard LAMP or MAMP stack that satisfies the requirements for the Laravel framework.
 
 The server should be configured to point to `url_temperature/public` as the site root.
 
